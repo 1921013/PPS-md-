@@ -151,3 +151,32 @@ Enter an integer: 9
 9 * 9 = 81
 9 * 10 = 90
 ```
+# 6.Write 
+```C
+#include <stdio.h>
+int main() {
+    int n, i, range;
+    printf("Enter an integer: ");
+    scanf("%d", &n);
+    printf("Enter the range: ");
+    scanf("%d", &range);
+    for (i = 1; i <= range; ++i) {
+        printf("%d * %d = %d \n", n, i, n * i);
+    }
+    return 0;
+}
+```
+Output of program
+```C
+
+Enter an integer: 12
+Enter the range: 8
+12 * 1 = 12 
+12 * 2 = 24 
+12 * 3 = 36 
+12 * 4 = 48 
+12 * 5 = 60 
+12 * 6 = 72 
+12 * 7 = 84 
+12 * 8 = 96 
+```
