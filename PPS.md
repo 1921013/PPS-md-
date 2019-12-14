@@ -180,8 +180,8 @@ Enter the range: 8
 12 * 7 = 84 
 12 * 8 = 96 
 ```
-# 7.WRITE A PROGRAM TO CHECK WHETHER A NUMBER IS PRIME OR NOT
-```C
+# 7.Write a program to check whether the number is prime or not.
+``C
 #include <stdio.h>
 void main()
 {
