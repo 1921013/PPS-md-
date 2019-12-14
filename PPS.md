@@ -87,3 +87,35 @@ Enter the values of a and b
 1 3
 addition of two numbers is 4
 ```
+#4.Write a source code to check whether the number is positive or negative.
+```C
+#include <stdio.h> 
+int main() 
+{ 
+
+    int A; 
+
+ 
+    printf("Enter the number A: "); 
+
+    scanf("%d", &A); 
+
+  
+
+    if (A > 0) 
+
+        printf("%d is positive.", A); 
+
+    else if (A < 0) 
+
+        printf("%d is negative.", A); 
+
+    return 0; 
+} 
+```
+Output of program
+```C
+
+Enter the number A =: -54
+-54 is negative.
+```
