@@ -226,3 +226,34 @@ OUTPUT
 Enter a no 6
 factorial of 6 is 720   
 ```
+# 9.Write a program to find factorial of a number using recursion.
+```C
+#include <stdio.h>
+int factorial(int);
+int main()
+{
+        int n,f;
+        printf("enter the number ");
+        scanf("%d",&n);
+        if(n<0)
+        printf("factorial is not defined");
+        else
+        {
+                f=factorial(n);
+                printf("factorial of number is %d\n",f);
+        }
+return 0;
+}                                                                         
+int factorial(int n)
+{
+        if(n==1)
+        return 1;
+        else                                                              
+        return (n*factorial(n-1));
+}
+```
+OUTPUT
+```C
+enter the number 5
+factorial of number is 120
+```
