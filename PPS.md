@@ -224,5 +224,5 @@ void main()
 OUTPUT
 ```C
 Enter a no 6
-factorial of a is 720   
+factorial of 6 is 720   
 ```
