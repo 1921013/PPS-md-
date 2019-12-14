@@ -38,12 +38,13 @@ int main()
     return 0;
 }
 ```
-Output of programs 
+Output of programe
 ```C
 Enter any number:6
 It's an even number.
 ```
 # 3.Write a program which takes 2 integers operands and one operand from user perform the operator and then print the result (+,-,/,*,%).
+```C
 #include <stdio.h>
 void main()
 {
@@ -77,9 +78,12 @@ void main()
    }
    getch();
 }
-Input & Output:
+```
+Output of programe
+```C
 Enter you operator(+, -, /, *, %)
 +
 Enter the values of a and b
 1 3
 addition of two numbers is 4
+```
