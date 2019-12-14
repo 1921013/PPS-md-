@@ -138,9 +138,6 @@ printf("total experience:%d",c);
 }
 ```
 Output of program
-```C
-
-
 
 # 6.Write a program to display the table of user choice.
 ```C
