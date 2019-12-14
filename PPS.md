@@ -138,6 +138,11 @@ printf("total experience:%d",c);
 }
 ```
 Output of program
+```c
+enter no. of employees:50
+enter their experience:15
+total experience:750
+```
 
 # 6.Write a program to display the table of user choice.
 ```C
