@@ -119,7 +119,7 @@ Output of program
 Enter the number A =: -54
 -54 is negative.
 ```
-# 5.Write a
+# 5.Write a program to display the table of user choice.
 ```C
 #include<stdio.h>
 int main()
