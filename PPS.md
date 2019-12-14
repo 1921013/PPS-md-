@@ -208,3 +208,21 @@ Output of program
 enter number 11
 no is prime
 ```
+# 8.Write a program to find the factorial of a number.
+```C
+#include <stdio.h>
+void main()
+{
+        int a,n=1,i;
+        printf("Enter a no");
+        scanf("%d",&i);
+        for(a=1;a<=i;a++)
+        n=n*a;
+        printf("factorial of a is %d \n",n);
+}
+```
+OUTPUT
+```C
+Enter a no 6
+factorial of a is 720   
+```
