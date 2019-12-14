@@ -151,7 +151,7 @@ Enter an integer: 9
 9 * 9 = 81
 9 * 10 = 90
 ```
-# 6.Write 
+# 6.Write a program to display the table between the range.
 ```C
 #include <stdio.h>
 int main() {
