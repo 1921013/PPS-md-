@@ -119,7 +119,30 @@ Output of program
 Enter the number A =: -54
 -54 is negative.
 ```
-# 5.Write a program to display the table of user choice.
+# 5.Write a source code to find the total experience of the employees.
+```C
+#include<stdio.h>
+int main()
+{
+int c;
+int a,b;
+printf("enter no. of employees:");
+scanf("%d",&a);
+printf("enter their experience:");
+scanf("%d",&b);
+for(int i=1;i<=a;i++)
+{
+c+=b;
+}
+printf("total experience:%d",c);
+}
+```
+Output of program
+```C
+
+
+
+# 6.Write a program to display the table of user choice.
 ```C
 #include<stdio.h>
 int main()
@@ -151,7 +174,7 @@ Enter an integer: 9
 9 * 9 = 81
 9 * 10 = 90
 ```
-# 6.Write a program to display the table between the range.
+# 7.Write a program to display the table between the range.
 ```C
 #include <stdio.h>
 int main() {
@@ -180,7 +203,7 @@ Enter the range: 8
 12 * 7 = 84 
 12 * 8 = 96 
 ```
-# 7.Write a program to check whether the number is prime or not.
+# 8.Write a program to check whether the number is prime or not.
 ```C
 #include <stdio.h>
 void main()
@@ -208,7 +231,7 @@ Output of program
 enter number 11
 no is prime
 ```
-# 8.Write a program to find the factorial of a number.
+# 9.Write a program to find the factorial of a number.
 ```C
 #include <stdio.h>
 void main()
@@ -226,7 +249,7 @@ OUTPUT
 Enter a no 6
 factorial of 6 is 720   
 ```
-# 9.Write a program to find factorial of a number using recursion.
+# 10.Write a program to find factorial of a number using recursion.
 ```C
 #include <stdio.h>
 int factorial(int);
