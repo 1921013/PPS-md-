@@ -282,3 +282,35 @@ OUTPUT
 enter the number 5
 factorial of number is 120
 ```
+# 11.Write a program to check whether the number is prime or not between the range.
+```C
+#include <stdio.h>
+int main() 
+{
+    int low, high, i, flag;
+    printf("Enter two numbers(intervals): ");
+    scanf("%d %d", &low, &high);
+    printf("Prime numbers between %d and %d are: ", low, high);
+    while (low < high) {
+        flag = 0;
+        // if low is a non-prime number, flag will be 1
+        for (i = 2; i <= low / 2; ++i) {
+            if (low % i == 0) {
+                flag = 1;
+                break;
+            }
+        }
+        if (flag == 0)
+            printf("%d ", low);
+        ++low;
+    }
+    return 0;
+}
+```
+Output of program
+```C
+
+Enter two numbers(intervals): 20 
+50
+Prime numbers between 20 and 50 are: 23 29 31 37 41 43 47
+```
