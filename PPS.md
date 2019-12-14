@@ -357,3 +357,25 @@ Enter 5 elements of  the array: 12
  
 largest element present in the given array is : 100
 ```
+# 13.Write a program to reverse a number.
+```C
+#include <stdio.h>
+void main()
+{
+        int a,n,r=0;
+        printf("enter number");
+        scanf("%d",&n);
+        while(n>0)
+        {
+                a=n%10;
+                r=r*10+a;
+                n=n/10;
+        }
+        printf("reverse no is %d \n",r);
+}
+```
+OUTPUT
+```C
+enter number 461 
+reverse no is 164
+```
