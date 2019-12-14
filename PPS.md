@@ -87,7 +87,7 @@ Enter the values of a and b
 1 3
 addition of two numbers is 4
 ```
-#4.Write a source code to check whether the number is positive or negative.
+# 4.Write a source code to check whether the number is positive or negative.
 ```C
 #include <stdio.h> 
 int main() 
