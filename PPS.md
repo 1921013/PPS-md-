@@ -43,3 +43,43 @@ Output of programs
 Enter any number:6
 It's an even number.
 ```
+# 3.Write a program which takes 2 integers operands and one operand from user perform the operator and then print the result (+,-,/,*,%).
+#include <stdio.h>
+void main()
+{
+   int a, b, c;
+   char ch;
+   clrscr() ;
+   printf("Enter your operator(+, -, /, *, %)\n");
+   scanf("%c", &ch);
+   printf("Enter the values of a and b\n");
+   scanf("%d%d", &a, &b);
+
+   switch(ch)
+   {
+      case '+': c = a + b;
+        printf("addition of two numbers is %d", c);
+        break;
+      case '-': c = a - b;
+         printf("substraction of two numbers is %d", c);
+         break;
+      case '*': c = a * b;
+         printf("multiplication of two numbers is %d", c);
+         break;
+      case '/': c = a / b;
+         printf("remainder of two numbers is %d", c);
+         break;
+      case '%': c = a % b;
+         printf("quotient of two numbers is %d", c);
+         break;
+      default: printf("Invalid operator");
+         break;
+   }
+   getch();
+}
+Input & Output:
+Enter you operator(+, -, /, *, %)
++
+Enter the values of a and b
+1 3
+addition of two numbers is 4
