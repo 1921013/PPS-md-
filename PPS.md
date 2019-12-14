@@ -3,7 +3,7 @@
 ## NAME-ARSHDEEP SINGH
 ## ITA1-1921013
 
-# 1.Write a programe to convert Centigrate to fahrenheit scale.
+# 1.Write a program to convert Centigrate to fahrenheit scale.
 ```C
 #include<stdio.h>
 int main()
@@ -17,12 +17,12 @@ int main()
 	return 0;
 }
 ```
-output of programs 
+output of program
 ```C
 Enter the temerature in Celsious : 37
 Temperatur in fahrenheit : 98.599998
 ```
-# 2. Write a programe to check whether even or odd number .
+# 2. Write a program to check whether even or odd number .
 ```C
 #include<stdio.h>
 int main()
@@ -38,7 +38,7 @@ int main()
     return 0;
 }
 ```
-Output of programe
+Output of program
 ```C
 Enter any number:6
 It's an even number.
@@ -79,7 +79,7 @@ void main()
    getch();
 }
 ```
-Output of programe
+Output of program
 ```C
 Enter you operator(+, -, /, *, %)
 +
