@@ -573,3 +573,33 @@ using pointer n:
 value of n:100
  address of n 804324724
  ```
+# 20.Write a program to find the maximum number in an array.
+```C
+#include <stdio.h>
+int main()
+{
+  int array[50], size, i, largest;
+   printf("\n Enter the size of the array: "); 
+   scanf("%d", &size);
+   printf("\n Enter %d elements of  the array: ", size);
+   for (i = 0; i < size; i++)
+   scanf("%d", &array[i]);
+   largest = array[0];
+   for (i = 1; i < size; i++)
+{
+   if (largest < array[i])
+   largest = array[i];
+} 
+   printf("\n largest element present in the given array is : %d", largest);
+    return 0;
+}
+```
+Output of program
+```C
+  Enter elements for array: 5 
+  4
+  7
+  1
+  2
+  Maximum number=7
+```
