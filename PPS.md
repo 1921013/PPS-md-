@@ -550,3 +550,26 @@ enter name d
 enter name e
  enter marks 5
 ```
+# 19.Write a program to display address of a variable using pointer.
+```C
+#include <stdio.h>
+void main()
+{
+        int n,*p;
+        p=&n;
+        n=100;
+        printf("using variable n:\n");
+        printf("value of n:%d\n address of n %u\n",n,&n);
+        printf("using pointer n: \n");
+        printf("value of n:%d\n address of n %u\n",*p,p);
+}
+```
+Output of program
+```C
+using variable n:
+value of n:100
+ address of n 804324724
+using pointer n: 
+value of n:100
+ address of n 804324724
+ ```
