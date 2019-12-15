@@ -379,7 +379,7 @@ OUTPUT
 enter number 461 
 reverse no is 164
 ```
-# 14. programs to find out the average of 4 integers with array
+# 14. programs to find out the average of 4 integers with array.
 ```C
 #include <stdio.h>
 int main()
@@ -486,4 +486,33 @@ Enter two operands: 1.5
 4.5
 1.5 * 4.5 = 6.8
 
+```
+# 17.Write a program to find squre of number using function.
+```C
+#include<stdio.h>
+
+int square(int); 
+
+int main()
+{
+     int number, answer;
+    
+     printf("Enter your number:");
+     scanf("%d", &number);
+    
+     answer = square(number);  
+    
+     printf("Square of %d is %d.", number, answer);
+}
+
+int square(int n)
+{
+     
+     return(n*n); 
+}
+```
+Output of program
+```C
+Enter your number:5
+Square of 5 is 25.
 ```
