@@ -516,3 +516,37 @@ Output of program
 Enter your number:5
 Square of 5 is 25.
 ```
+# 18.Write a program to display a structure.
+```C
+#include <stdio.h>
+struct xyz
+{       
+char name[5];
+int marks;      
+};              
+int main()
+{       
+struct xyz p;
+for(int i=0;i<=4;i++)
+{
+printf("enter name ");
+scanf("%s",p.name);
+printf("\n enter marks");
+scanf("%d",&p.marks);
+}
+return 0;
+}
+```
+Output of program
+```C
+enter name a
+ enter marks 1
+enter name b
+ enter marks 2
+enter name c
+ enter marks 3
+enter name d
+ enter marks 4
+enter name e
+ enter marks 5
+```
