@@ -434,7 +434,7 @@ int main() {
   return 0;
 }
 ```
-Output
+Output of program
 ```C
 Enter 5 integers: 1
 -3
