@@ -417,3 +417,33 @@ Enter number 4
 40
 Average of entered number is: 20
 ```
+# 15.Write a program to print simple matrix in array.
+```C
+#include <stdio.h>
+int main() {
+  int values[5];
+  printf("Enter 5 integers: ");
+  
+  for(int i = 0; i < 5; ++i) {
+     scanf("%d", &values[i]);
+  }
+  printf("Displaying integer");
+  for(int i = 0; i < 5; ++i) {
+     printf("%d\n", values[i]);
+  }
+  return 0;
+}
+```
+Output
+```C
+Enter 5 integers: 1
+-3
+34
+0
+3
+Displaying integers: 1
+-3
+34
+0
+3
+```
